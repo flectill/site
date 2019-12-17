@@ -1,7 +1,7 @@
 body {
-    background-color: #006A8D;
-    background:
-    color:
+    background-color:#006A8D;
+    
+    
         
     
 
@@ -19,4 +19,23 @@ figure {
 }
 
 
+/* Color Theme Swatches in Hex */
+.logo-1-hex { color: #006A8D; }
+.logo-2-hex { color: #007498; }
+.logo-3-hex { color: #2A93B7; }
+.logo-4-hex { color: #007FA5; }
+.logo-5-hex { color: #706F6F; }
 
+/* Color Theme Swatches in RGBA */
+.logo-1-rgba { color: rgba(0, 106, 141, 1); }
+.logo-2-rgba { color: rgba(0, 116, 152, 1); }
+.logo-3-rgba { color: rgba(42, 147, 183, 1); }
+.logo-4-rgba { color: rgba(0, 127, 165, 1); }
+.logo-5-rgba { color: rgba(112, 111, 111, 1); }
+
+/* Color Theme Swatches in HSLA */
+.logo-1-hsla { color: hsla(194, 100, 27, 1); }
+.logo-2-hsla { color: hsla(194, 100, 29, 1); }
+.logo-3-hsla { color: hsla(195, 62, 44, 1); }
+.logo-4-hsla { color: hsla(193, 100, 32, 1); }
+.logo-5-hsla { color: hsla(0, 0, 43, 1); }
