@@ -19,23 +19,4 @@ figure {
 }
 
 
-/* Color Theme Swatches in Hex */
-.2DA764B9-22DE-43B1-A7CC-0C702FF55B2A-1-hex { color: #000700; }
-.2DA764B9-22DE-43B1-A7CC-0C702FF55B2A-2-hex { color: #283C37; }
-.2DA764B9-22DE-43B1-A7CC-0C702FF55B2A-3-hex { color: #042C1A; }
-.2DA764B9-22DE-43B1-A7CC-0C702FF55B2A-4-hex { color: #536D73; }
-.2DA764B9-22DE-43B1-A7CC-0C702FF55B2A-5-hex { color: #25563F; }
 
-/* Color Theme Swatches in RGBA */
-.2DA764B9-22DE-43B1-A7CC-0C702FF55B2A-1-rgba { color: rgba(0, 7, 0, 1); }
-.2DA764B9-22DE-43B1-A7CC-0C702FF55B2A-2-rgba { color: rgba(40, 60, 55, 1); }
-.2DA764B9-22DE-43B1-A7CC-0C702FF55B2A-3-rgba { color: rgba(4, 44, 26, 1); }
-.2DA764B9-22DE-43B1-A7CC-0C702FF55B2A-4-rgba { color: rgba(83, 109, 115, 1); }
-.2DA764B9-22DE-43B1-A7CC-0C702FF55B2A-5-rgba { color: rgba(37, 86, 63, 1); }
-
-/* Color Theme Swatches in HSLA */
-.2DA764B9-22DE-43B1-A7CC-0C702FF55B2A-1-hsla { color: hsla(120, 100, 1, 1); }
-.2DA764B9-22DE-43B1-A7CC-0C702FF55B2A-2-hsla { color: hsla(165, 20, 19, 1); }
-.2DA764B9-22DE-43B1-A7CC-0C702FF55B2A-3-hsla { color: hsla(153, 83, 9, 1); }
-.2DA764B9-22DE-43B1-A7CC-0C702FF55B2A-4-hsla { color: hsla(191, 16, 38, 1); }
-.2DA764B9-22DE-43B1-A7CC-0C702FF55B2A-5-hsla { color: hsla(151, 39, 24, 1); }
