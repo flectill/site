@@ -12,70 +12,60 @@
     <section>
         <h2>Der Koalabär</h2>
         
-        <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-</div>
-
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-</div>
-
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
-</div>
-
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
-<* {box-sizing: border-box}
-
-/* Style the tab */
-.tab {
-  float: left;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-  width: 30%;
-  height: 300px;
-}
-
-/* Style the buttons that are used to open the tab content */
-.tab button {
-  display: block;
-  background-color: inherit;
-  color: black;
-  padding: 22px 16px;
-  width: 100%;
-  border: none;
-  outline: none;
-  text-align: left;
-  cursor: pointer;
+        <style>
+#mySidenav a {
+  position: absolute;
+  left: -80px;
   transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
+#mySidenav a:hover {
+  left: 0;
 }
 
-/* Create an active/current "tab button" class */
-.tab button.active {
-  background-color: #ccc;
+#about {
+  top: 20px;
+  background-color: #4CAF50;
 }
 
-/* Style the tab content */
-.tabcontent {
-  float: left;
-  padding: 0px 12px;
-  border: 1px solid #ccc;
-  width: 70%;
-  border-left: none;
-  height: 300px;7>
+#blog {
+  top: 80px;
+  background-color: #2196F3;
 }
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="#" id="about">About</a>
+  <a href="#" id="blog">Blog</a>
+  <a href="#" id="projects">Projects</a>
+  <a href="#" id="contact">Contact</a>
+</div>
+
+<div style="margin-left:80px;">
+  <h2>Hoverable Sidenav Buttons</h2>
+  <p>Hover over the buttons in the left side navigation to open them.</p>
+</div>
+   
+        
+   
  
         <figure>
             <img src="https://cdn.pixabay.com/photo/2014/03/31/15/22/australia-301977_960_720.jpg" alt="Australischer Koalabär"> 
